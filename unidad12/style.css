@@ -1,0 +1,1187 @@
+*{
+    margin:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background:-webkit-linear-gradient(top,#F4F3F4,#FFFFFF);
+}
+
+#resolucion{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #F4F3F4;
+}
+
+#logo{
+    width: 90px;
+    height: 60px;
+    margin-left: 50px;
+    float: left;
+
+}
+
+#iniciarSesion{
+    display: block;
+    float: right;
+    margin-top:20px ;
+    margin-right: 40px;
+}
+
+#iniciarSesion a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #252525;
+}
+
+#navbar{
+    width: 100%;
+    height: 35px;
+    float: left;
+    margin-top: 3px;
+    background-color: #252525;
+    box-shadow: 0px 5px 5px #C2C2C2 ;
+}
+
+#navbar ul{
+    list-style-type: none;
+}
+
+#navbar ul li{
+    float: left;
+    margin-left: 5px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 2.5px 45px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#navbar ul li a:hover{
+    background-color: #929292;
+}
+
+
+#content{
+    width: 100%;
+    height: 800px;
+    background-color: #F4F3F4;
+    background-image: url(imagenes/background.png);
+    background-position: top 370px right 0px ;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+#subcontent-1-1{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 280px;
+    margin-left: 28px;
+}
+#subcontent-1-1 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #C2C2C2 ;
+}
+
+#subcontent-1-2{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 28px;
+}
+
+#subcontent-1-2 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #C2C2C2 ;
+}
+
+#subcontent-1-3{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 28px;
+}
+
+#subcontent-1-3 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #C2C2C2 ;
+}
+
+#subcontent-1-4{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: 420px;
+    margin-left: 28px;
+}
+
+#subcontent-1-4 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #C2C2C2 ;
+}
+
+#subcontent-1-text{
+    font-size: 60px;
+    background:-webkit-linear-gradient(left,#F4F4F4 10%,#A0C5FA 40%,#0163F0);
+    border-radius: 4px;
+    float: left;
+    position: relative;
+    width: 400px;
+    left: 500px;
+    bottom: 660px;
+    height: 80px;
+}
+
+#content2{
+    width: 940px;
+    height: 500px;
+    background-image: url("imagenes/fondoseccion2.jfif");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+
+#parrafo {
+    color: #252525;
+    font-size: 30px;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+
+.content-2-1{
+    width: 250px;
+    height: 400px;
+    float: left;
+    margin-left: 48px;
+    margin-top: -10px;
+    border-radius: 20px 20px 50px 50px;
+    border: 3px solid #969696;
+    background-color: #FFFFFF;
+}
+
+#lentescomodos{
+    background-image: url("imagenes/lentes-redondos.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 0px 130px;
+}
+
+#lenteselegantes{
+    background-image: url("imagenes/lenteselegantes.jpg");
+    background-size: 370px;
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+}
+
+#lentesmoda{
+    background-image: url("imagenes/lentesmoda.jpg");
+    background-size: 330px;
+    background-repeat: no-repeat;
+    background-position: 0px 50px;
+}
+
+.content-2-1-1{
+    width: 247px;
+    height: 90px;
+    background-color: #252525;
+    border-radius: 20px 20px 0px 0px;
+    padding-top: 2px;
+    border: 1px solid #969696;
+    margin-top: -2px;
+    margin-left: -1px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.content-2-1-1 button{
+    border-radius: 40px;
+    border: 2px solid  #F4F3F4;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #252525;
+}
+
+.content-2-1-1 button:hover{
+    background-color: #A0C5FA;
+}
+
+#content3{
+    background:-webkit-linear-gradient(bottom,#e8e8e8,#FFFFFF);
+    height: 550px;
+    width: 940px;
+    box-shadow: 0px 0px 5px #C2C2C2;
+}
+
+#content3-1{
+    width: 840px;
+    height: 450px;
+    background-image: url(imagenes/Gafas-de-sol.jpg);
+    background-repeat: no-repeat;   
+    float: left;
+    margin: 50px;
+}
+
+
+#content3-1-1{
+    width: 200px;
+    height: 200px;
+    background-image: url(imagenes/lentespublicidad.png);
+    background-size: 310px;
+    background-repeat: no-repeat; 
+    position: relative;
+    top: 280px;
+    right: 30px;
+    border: 2px double #252525;
+}
+
+#content3-1-2{
+    width: 250px;
+    height: 400px;
+    margin-left: 550px;
+    position: relative;
+    top: -180px;
+    border: 2px dashed #252525;
+    background-color: #F4F3F4;
+    border-radius: 20px;
+}
+
+#content3-1-2 div{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+#content3-1-2 p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#pie{
+    clear: left;
+    width: 100%;
+    height: 190px;
+    background-color:#e8e8e8;
+    margin-top: 0px;
+}
+
+#contacto{
+    float: left;
+    margin-top: 10px;
+}
+
+#contacto ul{
+    list-style-type: none;
+    margin-top:10px;
+    margin-left: 6px;
+    
+}
+#contacto ul li{
+    margin-top: 7px;
+}
+
+#contacto ul li a i span{
+    margin-left: 4px;
+    color: #252525;
+    font-size: 14px;
+}
+
+#contacto p{
+    font-size: 20px;
+    color: #252525;
+    margin-left: 50px;
+    border-bottom: 1px solid #252525;
+}
+
+#contacto a{
+    text-decoration: none;
+    color: #252525;
+    margin-left: 10px;
+    border-bottom: 1px solid #969696;
+}
+
+
+#informacion{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+#informacion p{
+    margin-left: 40px;
+    font-size: 20px;
+    border-bottom: 1px solid #252525;
+}
+
+#informacion ul{
+    list-style-type: none;
+    margin-left: 7px;
+}
+
+#informacion ul li{
+    margin-top: 7px;
+}
+
+#informacion ul li a{
+    color: #252525;
+    text-decoration: none;
+    border-bottom: 1px solid #969696;
+}
+#telefono-menu{
+    display: none;
+}
+
+#comodo{
+    display: none;
+    font-size: 30px;
+    margin-left: 150px;
+    
+}
+#elegante{
+    display: none;
+    font-size: 30px;
+    margin-left: 310px;
+    
+}
+#moda{
+    display: none;
+    font-size: 30px;
+    margin-left: 220px;
+    
+}
+#content4-1{
+    height: 700px;
+    box-shadow: 0px 0px 5px #C2C2C2;
+    margin-bottom: 3px;
+}
+#content4-1-1{
+    background-color: #e8e8e8;
+    height: 700px;
+}
+#content4-1-1 div{
+    margin-top: 160px;
+}
+#content4-1-2{
+    background-color: #e1e1e1;
+    height: 700px;
+}
+#content4-1-3{
+    background-color: #e8e8e8;   
+    height: 700px;
+}
+
+#content4-2{
+    height: 400px;
+    background-color: #e1e1e1;
+    margin-bottom: 2px;
+}
+#content4-2-1{
+    height: 400px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#content4-2-2{
+    height: 400px;
+    background:-webkit-linear-gradient(top,#FFFFFF,#dcdcdc,#FFFFFF);
+}
+#content4-2-2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+#content4-2-2 p{
+    margin-top: 40px;
+    text-align: center;
+}
+#content4-2-2 div{
+    margin-left: 55px;
+}
+
+#content4-1-2 p{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 140px;
+}
+.button-style{
+    background-color: #252525;
+    color: #F4F4F4;
+    margin-left: 100px;
+}
+
+.button-style:hover{
+    background-color: #666666;
+    color: #F4F4F4;
+}
+
+.text-color{
+    color: #252525;
+    font-size: 18px;
+}
+
+#content4-1-3 div{
+    margin-top: 160px;
+}
+
+.cardprops2{
+    display: none;
+}
+
+.sizecarousel{
+    height: 400px;
+}
+
+/*--------------------------------------RESOLUCIONES----------------------------------------*/
+
+@media all and (min-width: 600px) and (max-width:1023px){
+    #resolucion{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        background-color: #F4F3F4;
+    }
+    
+    #logo{
+        width: 70px;
+        height: 50px;
+        margin-left: 50px;
+        float: left;
+    
+    }
+    
+    #iniciarSesion{
+        display: block;
+        float: right;
+        margin-top:20px ;
+        margin-right: 40px;
+    }
+    
+    #iniciarSesion a{
+        padding: 0px 10px;
+        text-decoration: none;
+        color: #252525;
+    }
+    
+    #navbar{
+        width: 100%;
+        height: 35px;
+        float: left;
+        margin-top: 3px;
+        background-color: #252525;
+        box-shadow: 0px 5px 5px #C2C2C2 ;
+    }
+    
+    #navbar ul{
+        list-style-type: none;
+    }
+    
+    #navbar ul li{
+        float: left;
+        margin-left: 7px;
+    }
+    
+    #navbar ul li a{
+        display: block;
+        padding: 2.5px 10px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 1px;
+    }
+    
+    #navbar ul li a:hover{
+        background-color: #929292;
+    }
+    
+    
+    #content{
+        width: 100%;
+        height: 900px;
+        background-color: #F4F3F4;
+        background-image: url(imagenes/background.png);
+        background-position: top 370px right 0px ;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+    }
+    
+    #subcontent-1-1{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+    #subcontent-1-1 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-2{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 140px;
+    }
+    
+    #subcontent-1-2 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #lentescomodos{
+        background-image: url("imagenes/lentes-redondos.jpg");
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: 0px 130px;
+    }
+    
+    #lenteselegantes{
+        background-image: url("imagenes/lenteselegantes.jpg");
+        background-size: 230px;
+        background-repeat: no-repeat;
+        background-position: 0px 90px;
+    }
+    
+    #lentesmoda{
+        background-image: url("imagenes/lentesmoda.jpg");
+        background-size: 230px;
+        background-repeat: no-repeat;
+        background-position: 0px 80px;
+    }
+    
+
+    #subcontent-1-3{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 28px;
+    }
+    
+    #subcontent-1-3 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-4{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 30px;
+        margin-left: 140px;
+    }
+    
+    #subcontent-1-4 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-text{
+        font-size: 60px;
+        background:-webkit-linear-gradient(left,#F4F4F4 10%,#A0C5FA 40%,#0163F0);
+        border-radius: 4px;
+        float: left;
+        position: relative;
+        width: 400px;
+        height: 90px;
+        left: 100px;
+        bottom: -20px;
+    }
+    
+    #content2{
+        width: 600px;
+        height: 450px;
+    }
+    
+    #parrafo {
+        font-size: 30px;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .content-2-1{
+        width: 180px;
+        height: 330px;
+        float: left;
+        margin-left: 15px;
+        margin-top: 0px;
+    }
+    
+    .content-2-1-1{
+        width: 176px;
+    }
+    
+    #content3{
+        height: 450px;
+        width: 600px;
+    }
+    
+    #content3-1{
+        width: 560px;
+        height: 400px;
+        float: left;
+        margin: 20px;
+        background-position: right;
+    }
+    
+    #content3-1-1{
+        width: 130px;
+        height: 130px;
+        background-color: brown;
+        position: relative;
+        background-size: 200px;
+        top: 290px;
+        right: 15px;
+    }
+    
+    #content3-1-2{
+        width: 180px;
+        height: 380px;
+        background-color: #F4F3F4;
+        margin-left: 370px;
+        position: relative;
+        top: -120px;
+    
+    }
+
+    #content3-1-2 div{
+        margin-left: 5px;
+        margin-top: 80px;
+    }
+    
+    #content3-1-2 div p{
+        font-size: 16px;
+    }
+
+    #pie{
+        clear: left;
+        width: 100%;
+        background-color:#e8e8e8;
+        margin-top: 0px;
+    }
+    
+    #contacto{
+        float: left;
+        margin-top: 10px;
+    }
+    
+    #contacto ul{
+        list-style-type: none;
+        margin-top:10px;
+        
+    }
+    #contacto ul li{
+        margin-top: 7px;
+    }
+    
+    #contacto ul li a i span{
+        margin-left: 4px;
+        color: #252525;
+        font-size: 14px;
+    }
+    
+    #contacto p{
+        font-size: 20px;
+        color: #252525;
+        margin-left: 50px;
+        border-bottom: 1px solid #252525;
+    }
+    
+    #contacto a{
+        text-decoration: none;
+        color: #252525;
+        margin-left: 10px;
+        border-bottom: 1px solid #969696;
+    }
+    
+    #informacion{
+        float: right;
+        margin-top: 10px;
+        margin-right: 60px;
+    }
+    #informacion p{
+        margin-left: 40px;
+        font-size: 20px;
+        border-bottom: 1px solid #252525;
+    }
+    
+    #informacion ul{
+        list-style-type: none;
+    }
+    
+    #informacion ul li{
+        margin-top: 7px;
+    }
+    
+    #informacion ul li a{
+        color: #252525;
+        text-decoration: none;
+        border-bottom: 1px solid #969696;
+    }
+
+    #telefono-menu{
+        display: none;
+    }
+
+    #content4-1{
+        height: 950px;
+    }
+    #content4-1-1{
+        height: 300px;
+    }
+    #cardsize{
+        height: 50px;
+    }
+    #content4-1-2{
+        height: 350px;
+    }
+    #content4-1-3{
+        height: 300px;
+    }
+    #content4-2{
+        height: 500px;
+    }
+    #content4-2-1{
+        height: 350px;
+    }
+    #content4-2-2{
+        height: 150px;
+    }
+    #content4-2-2 div{
+        margin-left: 235px;
+    }
+    #content4-2-2 h2{
+        margin-top: 20px;
+    }
+    #content4-2-2 p{
+        margin-top: 20px;
+    }
+    .sizecarousel{
+        height: 350px;
+    }
+    
+    .cardprops{
+        top: -140px;
+     }
+ 
+     .cardprops img{
+        height: 260px;
+      }
+ 
+      .cardprops div{
+        top:0px ;
+      }
+      .cardprops div h5{
+         color: #FFFFFF;
+      }
+      .cardprops div p{
+         color: #FFFFFF;
+      }
+      #content4-1-2 p{
+         margin-top: 10px;
+         margin-left: 215px;
+      }
+      .button-style{
+         margin-left: 260px;
+      }
+
+
+
+}
+
+@media all and (max-width:599px){
+    body{
+        overflow-x: hidden;
+    }
+    #resolucion{
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header{
+        width: 100%;
+        height: 50px;
+        background-color: #F4F3F4;
+        box-shadow: 0px 5px 5px #C2C2C2 ;
+        margin-bottom: 10px;
+    }
+    
+    #logo{
+        width: 60px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 4px;
+        float: left;
+    
+    }
+    
+    #iniciarSesion{
+        display: none;
+    }
+    
+    #navbar{
+        display: none;
+    }
+    
+    #content{
+        width: 100%;
+        height: 1430px;
+        background-color: #F4F3F4;
+        background-image: url(imagenes/background.png);
+        background-position: top 950px right 0px ;
+        background-size: 1000px;
+        background-repeat: no-repeat;
+    }
+    
+    #subcontent-1-1{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 0px;
+        margin-left: 28px;
+    }
+    #subcontent-1-1 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-2{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    
+    #subcontent-1-2 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-3{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 60px;
+        margin-left: 28px;
+    }
+    
+    #subcontent-1-3 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-4{
+        width: 200px;
+        height: 300px;
+        float: left;
+        margin-top: 10px;
+        margin-left: 140px;
+    }
+    
+    #subcontent-1-4 img{
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #C2C2C2 ;
+    }
+    
+    #subcontent-1-text{
+        font-size: 25px;
+        background:-webkit-linear-gradient(left,#F4F4F4 10%,#A0C5FA 40%,#0163F0);
+        border-radius: 4px;
+        float: left;
+        position: relative;
+        width: 230px;
+        height: 40px;
+        left: 60px;
+        bottom: 660px;
+    }
+    
+    #content2{
+        width: 100%;
+        height: 270px;
+        background-repeat: repeat;
+    }
+
+    #parrafo {
+        font-size: 15px;
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+    
+    .content-2-1{
+        width: 90px;
+        height: 220px;
+        float: left;
+        margin-left: 23px;
+
+    }
+    
+    .content-2-1-1{
+        width: 88px;
+        height: 50px;
+        padding-top: 11px;
+        margin-left: -2px;
+
+    }
+    
+    .content-2-1-1 button{
+        outline: none;
+        width: 80px;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #252525;
+    }
+    
+
+
+    #lentescomodos{
+        background-image: url("imagenes/lentes-redondos.jpg");
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: 0px 90px;
+    }
+    
+    #lenteselegantes{
+        background-image: url("imagenes/lenteselegantes.jpg");
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: 0px 80px;
+    }
+    
+    #lentesmoda{
+        background-image: url("imagenes/lentesmoda.jpg");
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: 0px 70px;
+    }
+    
+
+    #content3{
+        height: 450px;
+        width: 360px;
+    }
+    
+    #content3-1{
+        width: 320px;
+        height: 400px;
+        float: left;
+        margin: 20px;
+        background-position: right;
+    }
+    
+    #content3-1-1{
+        width: 120px;
+        height: 120px;
+        position: relative;
+        background-size: 185px;
+        top: 300px;
+        left: 210px;
+    }
+    
+    #content3-1-2{
+        width: 120px;
+        height: 190px;
+        background-color: #F4F3F4;
+        margin-left: 10px;
+        position: relative;
+        left: 180px;
+        top: -110px;
+    
+    }
+    
+    #content3-1-2 div{
+        margin-left: 8px;
+        margin-top: 5px;
+        overflow-x: hidden;
+    }
+
+    #content3-1-2 div p{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    #pie{
+        clear: left;
+        width: 100%;
+        background-color:#e8e8e8;
+        margin-top: 0px;
+    }
+    
+    #contacto{
+        float: left;
+        margin-top: 9px;
+
+    }
+    
+    #contacto ul{
+        list-style-type: none;
+        margin-top:10px;
+        
+    }
+    #contacto ul li{
+        margin-top: 7px;
+    }
+    
+    #contacto ul li a i span{
+        margin-left: 4px;
+        color: #252525;
+        font-size: 14px;
+    }
+    
+    #contacto p{
+        font-size: 14px;
+        color: #252525;
+        margin-left: 40px;
+        border-bottom: 1px solid #252525;
+    }
+    
+    #contacto a{
+        font-size: 14px;
+        text-decoration: none;
+        color: #252525;
+        margin-left: 0px;
+        border-bottom: 1px solid #969696;
+    }
+    
+    #informacion{
+        float: right;
+        margin-top: 10px;
+        margin-right: 50px;
+    }
+    #informacion p{
+        margin-left: 40px;
+        font-size: 14px;
+        border-bottom: 1px solid #252525;
+    }
+    
+    #informacion ul{
+        list-style-type: none;
+    }
+    
+    #informacion ul li{
+        margin-top: 2px;
+    }
+    
+    #informacion ul li a{
+        font-size: 12px;
+        color: #252525;
+        text-decoration: none;
+        border-bottom: 1px solid #969696;
+    }
+
+    #telefono-menu{
+        display: block;
+        float: right;
+        margin-right: 30px;
+        margin-top: 16px;
+        
+    }
+
+    #telefono-menu:hover{
+        color:#0163F0;
+    }
+
+    #content4-1{
+        height: 900px;
+    }
+    #content4-1-1{
+        height: 250px;
+    }
+    #content4-1-2{
+        height: 400px;
+
+    }
+    #content4-1-3{  
+        height: 250px;
+    }
+    #content4-2{
+        height: 520px;
+
+    }
+    #content4-2-1{
+        height: 350px;
+        background-color: crimson;
+    }
+    #content4-2-2{
+        height: 170px;
+        background-color: darksalmon;
+    }
+    #content4-2-2 h2{
+        font-size: 24px;
+        margin-top: 60px;
+    }
+    #content4-2-2 p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #content4-2-2 div{
+        margin-left: 116px;
+    }
+
+    .cardprops{
+       top: -140px;
+    }
+
+    .cardprops img{
+        height: 200px;
+     }
+
+     .cardprops div{
+        top:-80px ;
+     }
+     .cardprops div h5{
+        color: #FFFFFF;
+     }
+     .cardprops div p{
+        color: #FFFFFF;
+     }
+     #content4-1-2 p{
+        margin-top: 20px;
+        margin-left: 90px;
+     }
+     .button-style{
+        margin-left: 135px;
+     }
+
+}

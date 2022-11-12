@@ -1,0 +1,10 @@
+var nombre;
+var sexo;
+var edad;
+var preferencias;
+var lentes;
+nombre = prompt("Cual es tu nombre?");
+sexo = prompt("¿Introduce tu sexo?");
+edad = prompt("¿Introduce tu edad?");
+preferencias = prompt("¿Que es lo que buscas respecto a lentes?");
+lentes = prompt("¿Que lentes usas actualmente?");

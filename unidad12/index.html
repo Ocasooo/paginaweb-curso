@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">  
+    <script src="https://kit.fontawesome.com/aef010b255.js" crossorigin="anonymous"></script>
+    <title>Space Glasses</title>
+    <!-- <script src="unidad7.js"></script> -->
+</head>
+<body>
+    <div id="resolucion">
+        <header id="header">
+            <img id="logo" src="imagenes/Logo.png" alt="">
+            <div id="iniciarSesion"><a href="">Iniciar sesión</a>|<a href="">Registrarse</a></div>
+            <nav id="telefono-menu"><i class="fa-solid fa-bars fa-xl"></i></nav>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#content1">Inicio</a></li>
+                    <li><a href="#content2">Lentes</a></li>
+                    <li><a href="#content3">¿Quienes somos?</a></li>
+                    <li><a href="#content4">Seccion 4</a></li>
+                    <li><a href="#pie">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="content"><a name="content1"></a>
+                <article id="subcontent-1-1"><img src="imagenes/modelo1.jpg" alt=""></article>
+                <article id="subcontent-1-2"><img src="imagenes/modelo3.png" alt=""></article>
+                <article id="subcontent-1-3"><img src="imagenes/modelo2.png" alt=""></article>
+                <article id="subcontent-1-4"><img src="imagenes/modelo4.png" alt=""></article>
+                <div id="subcontent-1-text">Renova tu #look</div>
+        </section>
+        <section>
+            <div id="content2"><a name="content2"></a>
+                <div id="borrar">
+                <p id="parrafo">Eligue una Opcion</p>
+                <article class="content-2-1" id="lentescomodos">
+                    <div class="content-2-1-1">
+                        <button onclick="evento(this)" value="0" id="boton">Comodidad</button>
+                    </div>
+                </article>
+                <article class="content-2-1" id="lenteselegantes">
+                    <div class="content-2-1-1">
+                        <button onclick="evento(this)" value="1" id="boton">Elegancia</button>
+                    </div>
+                </article>
+                <article class="content-2-1" id="lentesmoda">
+                    <div class="content-2-1-1">
+                        <button onclick="evento(this)" value="2" id="boton">Moda</button>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="content3"><a name="content3"></a>
+                <article id="content3-1">
+                    <article id="content3-1-1"></article>
+                    <article id="content3-1-2">
+                        <div id="respuestas">
+                            <p> <u>Tus Respuestas</u> </p>
+                            <p><script>document.write("Nombre:" + nombre);</script></p>
+                            <p><script>document.write("Sexo:" + sexo);</script></p>
+                            <p><script>document.write("Edad:" + edad);</script></p>
+                            <p><script>document.write("Preferencias:" + preferencias);</script></p>
+                            <p><script>document.write("Lentes:" + lentes);</script></p>
+                        </div>
+                    </article>
+                </article>
+            </div>
+        </section>
+        <section><a name="content4"></a>
+            <div  class="container-fluid" id="content4-1">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-lg-4" id="content4-1-1"><!--Carta-->
+                        <div class="card text-bg-dark cardprops">
+                            <img src="modelocard.jpg" class="card-img" alt="Modelo de lentes">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title text-color">Moda</h5>
+                              <p class="card-text text-color">Lo ultimo en moda en un solo lugar</p>
+                            </div>
+                          </div><!--Carta-->
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-lg-4" id="content4-1-2"> <!--Inicio formulario-->
+                        <form>
+                            <p>Dejanos Contactacte</p>
+                            <div class="mb-3">
+                                <label class="form-label">Nombre y Apellido</label>
+                                <input type="text" class="form-control form-control-sm">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control form-control-sm">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Telefono</label>
+                                <input type="number" class="form-control form-control-sm" min="0">
+                            </div>
+                            <input class="btn button-style" type="submit" value="Enviar">
+                        </form>
+                    </div> <!--Fin formulario-->
+                    <div class="col-sm-12 col-xs-12 col-lg-4" id="content4-1-3"><!--Carta-->
+                        <div class="card text-bg-dark cardprops">
+                            <img src="modelocard2.jpg" class="card-img" alt="Modelo de lentes2">
+                            <div class="card-img-overlay">
+                              <h5 class="card-title text-color">Precio</h5>
+                              <p class="card-text text-color">Encuentra lo mejor en precios en un solo lugar</p>
+                            </div>
+                          </div>
+                    </div><!--Carta-->
+                  </div>
+            </div>
+            <div  class="container-fluid" id="content4-2">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12 col-lg-9" id="content4-2-1"> <!--inicio carousel-->
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="/imagenes/ofertalentes1.jpg" class="d-block w-100 sizecarousel" alt="Oferta lentes promocion">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="/imagenes/ofetalentes2.jpg" class="d-block w-100 sizecarousel" alt="Oferta lentes moda">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/publicidad1231.png" class="d-block w-100 sizecarousel" alt="Oferta lentes comodos">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div> <!--fin carousel-->
+                    <div class="col-sm-12 col-xs-12 col-lg-3" id="content4-2-2">
+                        <h2>Encuentra los mejores precios</h2>
+                        <p>Incluso hasta 12 cuotas sin interes con las tarjetas aderidas</p>
+                        <div>
+                            <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+                            <i class="fa-brands fa-cc-paypal fa-lg"></i>
+                            <i class="fa-brands fa-cc-visa fa-lg"></i>
+                            <i class="fa-brands fa-cc-amazon-pay fa-lg"></i>
+                        </div>
+                        
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <footer id="pie"><a name="pie"></a>
+            <div id="contacto">
+                <p>Contacto</p>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-instagram fa-xs"><span>Instagram</span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-facebook fa-xs"><span>Facebook</span></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp fa-xs"><span>3644768566</span></i></a></li>
+                </ul> 
+            </div>
+            <div id="informacion">
+                <p>Informacion</p>
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Lentes</a></li>
+                    <li><a href="">Preguntas frecuentes</a></li>
+                    <li><a href="">Cambios y devoluciones</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+<script src="unidad8.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
